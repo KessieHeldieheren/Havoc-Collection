@@ -7,10 +7,10 @@ namespace Havoc\Collection;
  * Havoc Collection.
  *
  * Consider setting "@method" annotations for the following methods to enforce type hinting:
- *  - Collection::current (MyObject)
- *  - Collection::offsetGet (MyObject)
- *  - Collection::slice (MyObject[])
- *  - Collection::dump (MyObject[])
+ * - `@method MyObject current()`
+ * - `@method MyObject offsetGet($offset)`
+ * - `@method MyCollection slice(int $offset, ?int $length = null, bool $preserve_keys = false)`
+ * - `@method MyObject[] dump()`
  *
  * @package Havoc/Collection (https://github.com/KessieHeldieheren/Havoc-Collection)
  * @author Kessie Heldieheren (kessie@sdstudios.uk)
