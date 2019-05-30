@@ -4,9 +4,12 @@ declare(strict_types=1);
 namespace Havoc\Collection;
 
 /**
- * @package Havoc\Collection
- * @author Kessie Heldieherne
- * @license MIT
+ * Havoc Collection exceptions.
+ *
+ * @package Havoc/Collection (https://github.com/KessieHeldieheren/Havoc-Collection)
+ * @author Kessie Heldieheren (kessie@sdstudios.uk)
+ * @version 1.0.0
+ * @license MIT License (https://github.com/KessieHeldieheren/Havoc-Collection/blob/master/LICENSE)
  */
 class CollectionException extends \RuntimeException
 {
