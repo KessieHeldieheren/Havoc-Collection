@@ -6,7 +6,7 @@ Set ObjectCollection::$expected_class_name to define what class/interface object
 
 ## Type Hinting
 Consider setting "@method" annotations for the following methods to enforce type hinting:
- - Collection::current (MyObject)
- - Collection::offsetGet (MyObject)
- - Collection::slice (MyObject[])
- - Collection::dump (MyObject[])
+ - @method MyObject current()
+ - @method MyObject offsetGet($offset)
+ - @method MyCollection slice(int $offset, ?int $length = null, bool $preserve_keys = false)
+ - @method MyObject[] dump()
