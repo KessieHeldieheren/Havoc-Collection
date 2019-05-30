@@ -1,0 +1,11 @@
+{
+  "name": "havoc/collection",
+  "license": "MIT",
+  "description": "PHP scalar, array, and strict-typed object collections.",
+  "require": {
+    "php": ">=7.2 <8.0.0"
+  },
+  "autoload": {
+    "psr-4": {"Havoc\\Collection\\": "Havoc/Collection"}
+  }
+}
